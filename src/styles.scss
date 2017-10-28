@@ -1,8 +1,11 @@
 @import "scss/bootstrap";
 @import "~froala-design-blocks/src/scss/froala_blocks.scss";
 
-.fdb-block .rounded-circle {
-  border-radius: 50%;
+.fdb-block {
+    background-color: $body-bg;
+  .rounded-circle {
+    border-radius: 50%;
+  }
 }
 
 a:hover, a:active, a:visited, a:focus {
@@ -14,7 +17,7 @@ a:hover, a:active, a:visited, a:focus {
   border-radius: 50%;
   border: 3px solid #FF4F4E;
   img {
-    border: 5px solid white;
+    border: 5px solid $body-bg;
   }
 }
 
