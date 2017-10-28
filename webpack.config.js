@@ -20,12 +20,22 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.sass$/,
+        test: /\.scss$/,
         use: extractPlugin.extract({
           use: [{
               loader: "css-loader"
           }, {
               loader: "sass-loader"
+          }],
+          // use style-loader in development
+          fallback: "style-loader"
+        })
+      },
+      {
+        test: /\.css$/,
+        use: extractPlugin.extract({
+          use: [{
+              loader: "css-loader"
           }],
           // use style-loader in development
           fallback: "style-loader"

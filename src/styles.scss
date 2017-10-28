@@ -1,0 +1,46 @@
+@import "scss/bootstrap";
+@import "~froala-design-blocks/src/scss/froala_blocks.scss";
+
+.fdb-block .rounded-circle {
+  border-radius: 50%;
+}
+
+a:hover, a:active, a:visited, a:focus {
+  text-decoration: none;
+}
+
+.profile-image {
+  display: inline-block;
+  border-radius: 50%;
+  border: 3px solid #FF4F4E;
+  img {
+    border: 5px solid white;
+  }
+}
+
+.fdb-block {
+  font-family: $font-family-base;
+  h1 {
+    font-family: Orbitron, $font-family-base;
+  }
+}
+
+.text-semibold {
+  font-weight: 600;
+}
+
+.email {
+  font-size: 21px;
+  a, span {
+    vertical-align: middle;
+    display: inline-block;
+  }
+  @include media-breakpoint-down(sm) {
+    a {
+      display: block;
+    }
+    span {
+      display: none;
+    }
+  }
+}
