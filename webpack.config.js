@@ -9,11 +9,6 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'assets')
   },
-  resolve: {
-    alias: {
-      vue: 'vue/dist/vue.min.js'
-    }
-  },
   plugins: [
     extractPlugin,
   ],

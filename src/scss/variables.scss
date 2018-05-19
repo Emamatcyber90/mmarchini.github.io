@@ -1,22 +1,16 @@
-$blue: #0b3556;
-$indigo: #B89FF3;
-$purple: #6762BA;
-$pink: #CB4688;
-$red: #FF4F4E;
-$orange: #F18067;
-$yellow: #E7B746;
-$green: #25b533; // TODO palette
-$teal: #1BA892;
-$cyan: #7F90A9;
-$white: #fff;
-// $gray-600: #;
-$gray-800: #343638;
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
 
-$body-color: #434343;
-$body-bg: #F9FAF8;
-$font-color: $body-color;
+// $gap: 32px;
+// $tablet: (12 * 16 * 4 + 1)px;
+// $desktop: (12 * 16 * 4 + (2 * $gap))px;
+// $widescreen:  (12 * 16 * 5 + (2 * $gap))px;
+// $fullhd: (12 * 16 * 6 + (2 * $gap))px;
 
-$font-family-base: 'Open Sans', 'Roboto', sans-serif;
+// Disable the widescreen breakpoint
+$widescreen-enabled: false;
 
-// $link-color:  $red;
-// $link-hover-color:        lighten($red, 10%);
+// Disable the fullhd breakpoint
+$fullhd-enabled: false;
+
+$card-shadow: 0 2px 1px rgba(150, 150, 150, 0.1), 0 0 0 1px rgba(150, 150, 150, 0.1);
