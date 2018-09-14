@@ -12,3 +12,8 @@
   border-radius: 50%;
   border: 2px solid $danger;
 }
+
+.about-me b {
+  @extend .has-text-danger;
+  @extend .has-text-weight-semibold;
+}

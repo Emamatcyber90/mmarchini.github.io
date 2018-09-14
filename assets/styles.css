@@ -625,7 +625,7 @@ a.has-text-warning:hover, a.has-text-warning:focus {
 .has-background-warning {
   background-color: #ffdd57 !important; }
 
-.has-text-danger {
+.has-text-danger, .about-me b {
   color: #ff3860 !important; }
 
 a.has-text-danger:hover, a.has-text-danger:focus {
@@ -694,7 +694,7 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 .has-text-weight-normal {
   font-weight: 400 !important; }
 
-.has-text-weight-semibold {
+.has-text-weight-semibold, .about-me b {
   font-weight: 600 !important; }
 
 .has-text-weight-bold {
