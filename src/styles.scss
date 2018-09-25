@@ -17,3 +17,9 @@
   @extend .has-text-danger;
   @extend .has-text-weight-semibold;
 }
+
+.talk-references a {
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}

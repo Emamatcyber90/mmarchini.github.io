@@ -5981,3 +5981,6 @@ label.panel-block {
   border: 2px solid #ff3860; }
   .profile-picture img {
     border: 2px solid transparent; }
+
+.talk-references a:not(:last-child) {
+  margin-right: 10px; }
